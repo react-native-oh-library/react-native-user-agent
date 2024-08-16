@@ -1,12 +1,20 @@
 {
-  "name": "react-native-user-agent",
-  "version": "2.3.1",
+  "name": "@react-native-oh-tpl/react-native-user-agent",
+  "version": "2.3.1-0.0.1",
   "description": "Library that helps you to get mobile application user agent and web view user agent strings.",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bebnev/react-native-user-agent.git"
+    "url": "git://github.com/react-native-oh-library/react-native-user-agent.git"
+  },
+  "harmony": {
+    "alias": "react-native-user-agent",
+    "codegenConfig": {
+      "specPaths": [
+        "./src"
+      ]
+    }
   },
   "keywords": [
     "react-native",
@@ -14,7 +22,8 @@
     "user agent",
     "http",
     "webView",
-    "httpUserAgent"
+    "httpUserAgent",
+    "harmony"
   ],
   "author": "Bebnev Anton <bambr.ab@gmail.com>",
   "license": "MIT",
