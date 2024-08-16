@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "user_agent",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}
